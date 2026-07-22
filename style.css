@@ -286,13 +286,16 @@ button:focus-visible {
   width: 100%;
   max-width: var(--hero-image-max-width);
   margin-inline: auto;
+  aspect-ratio: 4 / 5;
+  overflow: hidden;
+  border-radius: var(--radius-lg);
 }
 
 .hero__media img {
   width: 100%;
-  aspect-ratio: 4 / 5;
+  height: 100%;
   object-fit: cover;
-  border-radius: var(--radius-lg);
+  display: block;
 }
 
 /* JS-gestützte Einblend-Animation */
