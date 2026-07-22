@@ -23,14 +23,14 @@
   <meta name="twitter:image" content="https://schleinzer.app/Bild.jpg">
 
   <!-- Icons / Manifest -->
-  <link rel="icon" href="/favicon.ico" sizes="any">
-  <link rel="icon" href="/assets/icons/icon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="/assets/icons/apple-touch-icon.png">
-  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" href="assets/icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
   <meta name="theme-color" content="#F3F3F1">
 
   <!-- Stylesheet -->
-  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="style.css">
 
   <!-- Strukturierte Daten: WebSite -->
   <script type="application/ld+json">
@@ -61,14 +61,13 @@
   <!-- ============ HEADER ============ -->
   <header class="site-header">
     <div class="container site-header__inner">
-      <a class="site-header__logo" href="/">SCHLEINZER.APP</a>
+      <a class="site-header__logo" href="index.html">SCHLEINZER.APP</a>
 
       <nav class="site-nav" aria-label="Hauptnavigation">
         <ul class="site-nav__list">
           <li><a href="#projekte">Projekte</a></li>
           <li><a href="https://schleinzer.photo" target="_blank" rel="noopener noreferrer">Über mich</a></li>
-          <!-- E-Mail-Adresse kann hier bei Bedarf ersetzt werden -->
-          <li><a href="mailto:schleinzer@gmail.com">Kontakt</a></li>
+          <li><a href="impressum.html">Impressum</a></li>
         </ul>
       </nav>
     </div>
@@ -90,7 +89,7 @@
 
         <div class="hero__media">
           <img
-            src="/Bild.jpg"
+            src="Bild.jpg"
             alt="Atmosphärisches Titelbild von Schleinzer.app"
             width="1000"
             height="1250"
@@ -223,7 +222,7 @@
             </span>
           </div>
 
-          <div class="card-grid card-grid--single">
+          <div class="card-grid">
             <a class="card" href="https://abenteuer.schleinzer.app">
               <span class="card__number">08</span>
               <h3 class="card__title">Abenteuer</h3>
@@ -236,41 +235,16 @@
       </div>
     </section>
 
-    <!-- ============ ÜBER MICH ============ -->
-    <section class="about">
-      <div class="container about__inner">
-        <p class="eyebrow">ÜBER MICH</p>
-        <h2 class="about__title">Ideen, Reisen, Fotografie und digitale Projekte.</h2>
-        <p class="about__text">Schleinzer.app versammelt kleine persönliche Websites, Reiseplanungen, Lernprojekte und fotografische Experimente an einem gemeinsamen Ort.</p>
-        <a class="text-link" href="https://schleinzer.photo" target="_blank" rel="noopener noreferrer">
-          Mehr auf schleinzer.photo <span aria-hidden="true">→</span>
-        </a>
-      </div>
-    </section>
-
-    <!-- ============ KONTAKT ============ -->
-    <section class="contact">
-      <div class="container contact__inner">
-        <h2 class="contact__title">Kontakt</h2>
-        <p class="contact__text">Fragen, Hinweise oder eine Idee für ein gemeinsames Projekt?</p>
-        <!-- E-Mail-Adresse kann hier bei Bedarf ersetzt werden -->
-        <a class="contact__email" href="mailto:schleinzer@gmail.com">schleinzer@gmail.com</a>
-      </div>
-    </section>
-
   </main>
 
   <!-- ============ FOOTER ============ -->
   <footer class="site-footer">
     <div class="container site-footer__inner">
       <p>&copy; <span id="year">2026</span> Schleinzer.app</p>
-      <div class="site-footer__links">
-        <a href="/impressum.html">Impressum &amp; Datenschutz</a>
-        <a href="https://schleinzer.photo" target="_blank" rel="noopener noreferrer">schleinzer.photo</a>
-      </div>
+      <a href="https://schleinzer.photo" target="_blank" rel="noopener noreferrer">schleinzer.photo</a>
     </div>
   </footer>
 
-  <script src="/script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
